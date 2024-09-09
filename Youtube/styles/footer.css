@@ -1,0 +1,69 @@
+.footer-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #cccccc;
+    color: #222222;
+    padding: 10px 10px 10px 0px;
+    font-family: Roboto,arial;
+    height  : 50px;
+    border-radius: 10px;
+
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.left-footer{
+    margin-left:0px;
+    padding-left: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow{
+    font-size: 18px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-top: 5px;    
+    transition: width 0.5s;
+}
+
+.social-icons .linkedin:hover,
+.social-icons .twitter:hover,
+.social-icons .github:hover{
+    width: 45px;    
+    transition: width 0.5s;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    font-size: 17px;
+    white-space: nowrap;
+    line-height: 25px;
+}
+.right-footer{
+    padding-right: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.copy-right-symbol{
+    font-size: 20px;
+    margin-right: 5px;
+}

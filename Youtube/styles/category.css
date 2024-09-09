@@ -1,0 +1,33 @@
+.category-bar{
+    display: flex;
+    position: fixed;
+    top: 60px;
+    left: 65px;
+    right: 0px;
+    height: 31px;
+    padding-bottom: 12px;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px rgb(216, 215, 215) solid;
+}
+
+.category-bar button{
+    font-family: Roboto,arial;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(235, 233, 233);
+    color: black;
+    margin-left: 11px;
+    white-space: nowrap;
+    padding: 5px 12px 5px 12px;
+}
+.category-bar button:hover{
+    background-color: rgb(218, 217, 217);
+    cursor: pointer;
+}
+
+.category-bar .all-button{
+    background-color: black;
+    color: white;
+}

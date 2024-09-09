@@ -1,0 +1,114 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 200;
+}
+
+.super-script{
+    /* border: 1px solid black; */
+    font-family: Roboto,arial;
+    color: rgb(105, 105, 105);
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 13px;
+}
+
+.left-section{
+    width: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.more-menu{
+    padding-left: 12px;
+    padding-right: 9px;
+    width: 23px;
+    margin-left: 10px;
+    margin-right: 13px;
+}
+.youtube-logo{
+    width: 80px;
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 140px;
+    margin-right: 100px;
+    max-width:600px ;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.search-bar{
+    flex: 1;    
+    height: 29px;
+    border: 1px solid rgb(172, 172, 172);
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.05);
+    width: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 13px;
+    padding-left: 12px;
+}
+.search-button{
+    height: 33px;
+    width: 48px;
+    border: 1px solid rgb(172, 172, 172);
+    background-color: rgb(247, 245, 245);
+    margin-left: -1px;
+    margin-right:12px ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;    
+}
+
+.search-button:hover{    
+    cursor: pointer;
+}
+
+.search-icon{
+    width: 20px;
+}
+.voice-search{
+    height: 33px;
+    width: 35px;
+    border: none;
+    border-radius: 17px;
+    background-color: rgb(247, 245, 245);
+}
+.voice-icon{
+    width: 20px;
+    margin-left: 1px;
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    flex-shrink: 0;
+    /* border: 1px solid black; */
+}
+.upload{
+    width: 25px;
+    /* margin-left: 15px; */
+}
+
+.notifications{
+    width: 26px;
+}
+.middle{
+    margin: 0px 19px 0px 21px;
+}
+.my-profile{
+    width: 50px;
+    object-fit: contain;
+    margin-right: 18px;
+}
